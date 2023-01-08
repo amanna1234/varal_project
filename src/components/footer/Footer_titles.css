@@ -1,0 +1,20 @@
+.footer_title_container{
+    display: flex;
+    align-items: center;
+    width: 400px;
+    margin-bottom: 50px;
+
+}
+
+.footer_title_container .side_blue_bar{
+    width: 12px;
+    height: 50px;
+    background-color: #525DED;
+}
+
+.footer_title_container .footer_title{
+    margin-left: 25px;
+    font-weight: 800;
+    font-size: 1.1rem;
+
+}

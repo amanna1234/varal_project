@@ -1,0 +1,30 @@
+.claim_free_quote_container{
+    display: flex;
+    /* padding: 0 130px; */
+    font-family: "Noto Sans", sans-serif;
+    
+}
+
+.claim_free_quote_container .claim_free_quote{
+    width: 430px;
+}
+
+.claim_free_quote_container .claim_free_quote p{
+    font-size: 1.3rem;
+    font-weight: 600;
+    color:#353535;
+}
+
+.claim_free_quote_container .claim_free_quote div{
+  color : #525DED;
+  font-size: 1.3rem;
+  margin: 10px 0;
+}
+
+@media (max-width:768px) {
+  
+    .claim_free_quote_container .claim_free_quote{
+        width: 330px;
+        text-align: center;
+    }
+}

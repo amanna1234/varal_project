@@ -1,0 +1,27 @@
+.pricing_title_container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-family: "Noto Sans", sans-serif;
+    padding: 50px 0;
+}
+
+.pricing_title_container .title{
+   width : 40%;
+   font-size: 1.5rem;
+   font-weight: 800;
+   color: #353535;
+
+}
+
+.pricing_title_container .title span{
+   text-decoration: underline 5px #FFA500;
+   text-underline-offset: 8px;
+ 
+ }
+
+ @media (max-width:768px) {
+    .pricing_title_container{
+       display: none;
+    }
+ }

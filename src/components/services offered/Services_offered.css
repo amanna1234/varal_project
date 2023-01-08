@@ -1,0 +1,44 @@
+.left_side, .right_side{
+    width: 50%;
+    flex-direction: column;
+ align-items: center;
+  display: flex;
+ }
+
+ .left_side{
+   padding-left: 50px;
+ }
+
+.right_side{
+    position: relative;
+    top: -100px;
+    padding-right: 50px;
+}
+
+
+
+
+.services_offered_container{
+    display: flex;
+ 
+}
+
+@media (max-width:768px) {
+    .services_offered_container{
+        display: flex;
+        flex-direction: column;
+     
+    }
+
+    .left_side{
+         padding: 0;
+         width: 100%;
+    }
+
+    .right_side{
+padding: 0;
+width: 100%;
+top: 0;
+    }
+    
+}

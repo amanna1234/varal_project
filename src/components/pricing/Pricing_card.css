@@ -1,0 +1,71 @@
+.pricing_card{
+    min-width: 350px;
+    max-width: 350px;
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+    font-family: "Noto Sans", sans-serif;
+    padding: 10px 20px;
+    border-radius: 5px;
+    
+}
+
+.pricing_card .place{
+
+ font-weight: 700;
+ font-size: 0.9rem;
+ margin: 10px 0;
+}
+
+.pricing_card .Price_container{
+   display: flex;
+   align-items:flex-end;
+   }
+
+   .pricing_card .Price_container .price{
+  
+    font-size: 1.4rem;
+    font-weight: 800;
+    }
+
+    .pricing_card .Price_container .payment_term{
+          color: rgba(128, 128, 128, 0.644);
+          font-size: 0.8rem;
+          padding-bottom: 2px;
+          font-weight: 600;
+    }
+
+    .pricing_card .features_title{
+    
+        font-weight: 500;
+        font-size: 0.9rem;
+        margin: 10px 0;
+       }
+
+       .pricing_card ul{
+       list-style:inside;
+       /* list-style-image: url("./pricing images/tick.png"); */
+
+       font-size: 0.9rem;
+       }
+
+       .pricing_card ul li{
+        margin: 15px 0;
+        
+        }
+
+        .pricing_card .continue_btn{
+           background: white;
+         
+           font-weight: 600;
+           font-size: 1rem;
+           border: 2px solid  #525DED;
+           border-radius: 5px;
+           padding: 20px 0;
+           color: #525DED;
+           }
+    
+
+      
+
+      

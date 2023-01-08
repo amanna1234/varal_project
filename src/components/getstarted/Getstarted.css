@@ -1,0 +1,145 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.getstarted_container {
+  font-family: "Noto Sans", sans-serif;
+  display: flex;
+  padding: 0 80px;
+ height: 550px;
+}
+
+.getstarted_container .getstarted_details {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+justify-content: center;
+}
+
+.getstarted_container .getstarted_image {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.getstarted_container .getstarted_image img {
+   width: 110%;
+  }
+
+.getstarted_container .getstarted_details .bluetext {
+  color: #525ded;
+  font-weight: 400;
+  font-size: 1.3rem;
+}
+
+.getstarted_container .getstarted_details .title {
+  color: rgb(53, 53, 53);
+  font-weight: 900;
+  font-size: 2.8rem;
+  margin: 8px 0 20px 0;
+ 
+}
+
+.getstarted_container .getstarted_details .title span{
+ text-decoration: underline #FFA500 8px;
+   
+  }
+
+.getstarted_container .getstarted_details img {
+    width: 100%;
+    display: none;
+  }
+
+.getstarted_container .getstarted_details p {
+  color: rgb(167, 165, 165);
+  font-weight: 700;
+  font-size: 1.3rem;
+  margin-top: 20px;
+}
+
+.getstarted_container .getstarted_details .btn_container {
+  display: flex;
+  width: 100%;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+  margin: 10px 0;
+  cursor: pointer;
+}
+
+.getstarted_container .getstarted_details .btn_container .start_company {
+  padding: 20px 10px;
+  background-color: #525ded;
+  color: white;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.getstarted_container .getstarted_details .btn_container .renew_company {
+  padding: 20px 10px;
+  color: #525ded;
+  border: 1px solid #525ded;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+ 
+}
+
+@media (max-width: 1000px) {
+ 
+
+    .getstarted_container {
+ 
+      padding: 0 30px;
+    }
+
+    .getstarted_container .getstarted_details .title {
+       
+        font-size: 1.9rem;
+  
+      }
+
+      .getstarted_container .getstarted_details {
+        width: 60%;
+    
+      }
+      
+      .getstarted_container .getstarted_image {
+        width: 40%;
+   
+      }
+  
+ 
+  }
+  
+  @media (max-width: 768px) {
+    .getstarted_container {
+       height: fit-content;
+      }
+    .getstarted_container .getstarted_image {
+     display: none;
+      }
+
+      .getstarted_container .getstarted_details {
+        width: 100%;
+       
+      }
+      .getstarted_container .getstarted_details .btn_container {
+        
+     
+        font-size: 0.9rem;
+        justify-content: center;
+        margin: 30px 0;
+      
+      }
+
+      .getstarted_container .getstarted_details img {
+        
+        display: block;
+      }
+
+      .getstarted_container .getstarted_details .bluetext {
+   
+        font-weight: 700;
+
+      }
+  }
+

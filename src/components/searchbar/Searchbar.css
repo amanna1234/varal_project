@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+.searchbar_container {
+  height: 100px;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+
+  padding: 0 80px;
+}
+
+.searchbar_container .search_input {
+  height: 45px;
+  width: 300px;
+  border: 2px solid #5863f5;
+  border-radius: 5px;
+  padding-left: 50px;
+}
+
+.search_input::placeholder {
+  color: #5863f5;
+  font-family: "Lexend Deca", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.search_input:focus {
+  border: 3px solid #5863f5;
+  outline: none;
+}
+
+.search_icon {
+  margin-right: -35px;
+  z-index: 1;
+  color: #5863f5;
+  font-size: 1.2rem;
+}
+
+@media (max-width: 1000px) {
+  .searchbar_container {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .searchbar_container .search_input {
+    width: 100%;
+  }
+}

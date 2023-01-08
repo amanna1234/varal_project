@@ -20,7 +20,15 @@
 
 .services_offered_container{
     display: flex;
- 
+ position: relative;
+}
+
+
+.services_offered_container .eclipse_image{
+  position: absolute;
+  bottom: -5%;
+  left: 10%;
+
 }
 
 @media (max-width:768px) {
@@ -40,5 +48,11 @@ padding: 0;
 width: 100%;
 top: 0;
     }
+    .services_offered_container .eclipse_image{
+        position: absolute;
+        bottom: 5%;
+        left: 50%;
+      
+      }
     
 }

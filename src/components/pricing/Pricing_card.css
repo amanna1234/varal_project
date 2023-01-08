@@ -55,7 +55,7 @@
         }
 
         .pricing_card .continue_btn{
-           background: white;
+           background:rgba(255, 255, 255, 0.753);
          
            font-weight: 600;
            font-size: 1rem;

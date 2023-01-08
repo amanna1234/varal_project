@@ -1,5 +1,7 @@
 import React from 'react';
-import pricing_title_css from "./Pricing_title.css"
+import pricing_title_css from "./Pricing_title.css";
+import first_eclipse_image from "./pricing images/1.png"
+import second_eclipse_image from "./pricing images/2.png"
 
 export default function Pricing_title() {
   return (
@@ -9,6 +11,8 @@ export default function Pricing_title() {
 jurisdictions are brought to you to 
 kick off your adventure.
         </div>
+        <img src={first_eclipse_image} className="first_eclipse_image" alt="" />
+        <img src={second_eclipse_image} className="second_eclipse_image" alt="" />
     </div>
   )
 }

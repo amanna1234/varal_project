@@ -1,0 +1,20 @@
+.email_container{
+    display: flex;
+    height: 60px;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.email_container input{
+   border: none;
+   background-color: rgba(231, 231, 231, 0.897);
+   height: 100%;
+   width: 70%;
+   padding: 0 20px;
+   font-size: 1.1rem;
+   color: rgba(189, 189, 189, 0.411);
+   font-weight: 700;
+  
+
+}
+

@@ -49,5 +49,13 @@ margin-bottom: 10px
     font-weight: 800;
  }
 
+ @media (max-width: 768px) {
+    .review_main_container{
+        width: 90%;
+        display: flex;
+        margin: 40px 0;
+    }
+ }
+
 
    

@@ -18,3 +18,12 @@
     font-size: 1.1rem;
 
 }
+
+@media (max-width: 768px) {
+    .footer_title_container{
+       
+        width: 300px;
+        margin-bottom: 30px;
+    
+    }
+}

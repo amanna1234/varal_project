@@ -3,7 +3,7 @@ import Free_quote from './Free_quote';
 import Services_card from './Services_card';
 import servicescss from "./Services_offered.css";
 import  bankaccount from "./service offered images/bank account setup.png";
-
+import  eclipse_image from "./service offered images/1.png";
 export default function Services_offered() {
   return (
     <>
@@ -18,6 +18,7 @@ export default function Services_offered() {
         <Services_card image = {bankaccount} title = "Registration Document Perparation" details = "Several documents must be prepared to start the process of registering a new company in the United Arab Emirates. Be it a Dubai local company, a free zone one or an offshore entity. Your registered agent is dedicated to get this done for you for a seamless process."/>
         <Free_quote title = "We have gathered a team of professionals to craft adequate services you can rely on for a friction free setup in UAE."/>
         </div>
+<img src={eclipse_image} className="eclipse_image" alt="" />
     </div>
   
    

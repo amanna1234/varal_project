@@ -1,13 +1,17 @@
 import React from "react";
 import Blogs from "./Blogs";
+import Email_input from "./Email_input";
 import footer_css from "./Footer.css";
 import Footer_services from "./Footer_services";
 import Footer_titles from "./Footer_titles";
 import Practice from "./practice";
 import Review from "./Review";
+import Social_media_links from "./Social_media_links";
+import eclipse_image from "./footer images/1.png"
 
 export default function Footer() {
   return (
+    <>
     <div className="footer_container">
       <div className="left_footer">
         <Footer_titles title="Read about our blogs for more information on our processes " />
@@ -87,9 +91,17 @@ export default function Footer() {
             <div className="list">Sunbscribe now to receive our </div>
             <div className="list">Newsletters about amazing</div>
             <div className="list">opportunities in Dubai</div>
+            <Email_input/>
+            <Social_media_links/>
           </div>
         </div>
       </div>
+      <img src={eclipse_image} className="eclipse_image" alt="" />
     </div>
+    
+    <div className="copyright_container">
+    Varaluae 2021 &#169; All Right Reserved
+    </div>
+    </>
   );
 }

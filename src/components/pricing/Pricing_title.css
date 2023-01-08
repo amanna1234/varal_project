@@ -4,7 +4,23 @@
     justify-content: center;
     font-family: "Noto Sans", sans-serif;
     padding: 50px 0;
+    position: relative;
 }
+
+.pricing_title_container .first_eclipse_image{
+ position: absolute;
+ right: 20%;
+ top: -15%;
+
+}
+
+.pricing_title_container .second_eclipse_image{
+   position: absolute;
+   bottom: -5%;
+   right:15%;
+  }
+  
+
 
 .pricing_title_container .title{
    width : 40%;
@@ -24,4 +40,13 @@
     .pricing_title_container{
        display: none;
     }
+
+    .pricing_title_container .first_eclipse_image{
+      display: none;
+     
+     }
+     
+     .pricing_title_container .second_eclipse_image{
+       display: none;
+       }
  }
